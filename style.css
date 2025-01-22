@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/47_-_black.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(68, 67, 67, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(173, 173, 173);
+}
+
+button {
+    margin-top: 4px;
+    padding: 10px 20px;
+    background-color: #1e1f1f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(212, 188, 188);
+    color: black;
+}
+
+#author {
+    margin-top: 30px;
+    font-style: italic;
+    color: white;
+}
